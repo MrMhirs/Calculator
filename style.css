@@ -1,0 +1,38 @@
+* {
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    position: static;
+    margin: 5% 30% ;
+}
+
+.header {
+    
+    text-align: right;
+    background-color: bisque;
+}
+
+.display {
+    background-color: rgb(255, 255, 255);
+    text-align: right;
+    height: 100px;
+    padding: 0px 0px;
+}
+
+.gridbotones{
+    height: 80%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#numeros,#operadores{
+    padding: 40%;
+}
+
+
+
