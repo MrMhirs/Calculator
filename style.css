@@ -5,33 +5,42 @@
 
 .container {
     position: static;
-    margin: 5% 30% ;
+    margin: 15% 30% ;
 }
 
 .header {
-    
     text-align: right;
     background-color: bisque;
 }
 
 .display {
+
     background-color: rgb(255, 255, 255);
     text-align: right;
     height: 100px;
     padding: 0px 0px;
 }
 
-.gridbotones{
+.gridbuttons{
     height: 80%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-content: center;
     align-items: center;
-    
+
 }
 
-#numeros,#operadores{
-    padding: 40%;
+#numbers,#operators{
+    padding: 30%;
+}
+
+.maindisplay {
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+.secdisplay {
+    margin-top: 20px;
 }
 
 
